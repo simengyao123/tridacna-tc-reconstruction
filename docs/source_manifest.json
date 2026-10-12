@@ -1,0 +1,122 @@
+[
+  {
+    "file": "data/raw/A114.xlsx",
+    "sha256": "b788acd43e10dbcfec738363eff4fdc5e72f20a751d2e67ace745803b59ab5be"
+  },
+  {
+    "file": "data/raw/LHJ.xlsx",
+    "sha256": "4be32ed587edc7c91d6b7485d042f99940fda4e38c07558ccced4b13406eabf0"
+  },
+  {
+    "file": "data/raw/XB10.xlsx",
+    "sha256": "66522a100b656f3b08871959a0eb2494a7ae1f4bfa0833a28988847c5df3b5f9"
+  },
+  {
+    "file": "data/reference_features/A114-TDI.xlsx",
+    "sha256": "7411a40f8c44edda3ab299e3aac2edbe9ed0d1e145cc3b0f747572c2345b0a1d"
+  },
+  {
+    "file": "data/reference_features/LHJ-TDI6.xlsx",
+    "sha256": "533157c0b4f017ef727a86ce8083c7e33ee4be435080058c0f14f25ccc4fbc80"
+  },
+  {
+    "file": "data/reference_features/xb10-TDI.xlsx",
+    "sha256": "a298cdd8ed12c7c9d0dd9f5fa57faaad40bc3e1eece40fd31175d97152ff4660"
+  },
+  {
+    "file": "models/reference/lhj2_best.pth",
+    "sha256": "718f687a158b470b5a3430d569f74fb46d9f57808eb4d32a2d7139cea1e6b640"
+  },
+  {
+    "file": "models/reference/scaler_lhj2.pkl",
+    "sha256": "f50425c69abed471cab390d2ef8b716be5771667484b539467988264376bcd59"
+  },
+  {
+    "file": "models/reference/scaler_xb10.pkl",
+    "sha256": "01788263ad1acf603747810f0b7dfcd450ee1e07135c631f2fa3bbdfad75d018"
+  },
+  {
+    "file": "models/reference/xb10_best.pth",
+    "sha256": "adfe0c49dc2ecb4ccdefeb3019d1c96845d247f0815cd19a8824085d33f1fca4"
+  },
+  {
+    "file": "reference_results/lhj2_classification_report.csv",
+    "sha256": "c61492b0a9cb46d003c2ab5ce21fa50dea4c49f12ccf0f3e3c23994cc261fb29"
+  },
+  {
+    "file": "reference_results/lhj2_test_daily_probability.csv",
+    "sha256": "ee952e1ea30bd5241093068a6424e6c898714ab6387a52dbf496285046eea4f2"
+  },
+  {
+    "file": "reference_results/lhj2_training_history.csv",
+    "sha256": "ba4691308595c93ee4493cfc5fec0b36dfbb887dd96a887e6ac2bc3e72b55911"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_lhj2/lhj2_tc_explained_samples.csv",
+    "sha256": "1134efe6e4f3e326b42fd2cb7c62c945d1c1bd82d864373765004fb680a6c914"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_lhj2/lhj2_tc_feature_time_abs_shap_matrix.csv",
+    "sha256": "a58e86b816f6a2bdfe54869a27acb10655bc186d50cca332657669ebfdacee64"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_lhj2/lhj2_tc_raw_shap_values.npz",
+    "sha256": "5aff890b01ba3b8d4cb5f14fa6a4eb0959465a5a860472323c36d44f8cccf5ac"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_lhj2/lhj2_tc_shap_additivity_check.csv",
+    "sha256": "f8a2f1f73aa26fa75895eaccefcb3335e1a23c099533bb098e04065f5c8b22b7"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_lhj2/lhj2_tc_signed_temporal_shap.csv",
+    "sha256": "ce619e1f11a872fa243fc007f0ace17fc23e4e7f185e6bd37be430d026551587"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_lhj2/lhj2_tc_temporal_contribution.csv",
+    "sha256": "c2122ac0888cae581bac328b215cb66a59232f5dced9ded1ae85b90f87b6c377"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_lhj2/lhj2_tc_temporal_organization_summary.csv",
+    "sha256": "ebb2b0e88204eac109e490f49add336e3068c98f239e1fd459f809a0cc245708"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_xb10/xb10_tc_explained_samples.csv",
+    "sha256": "1c813552e43caabd542619453fd9579f450bd13746ab0e1c930a783c166098e0"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_xb10/xb10_tc_feature_time_abs_shap_matrix.csv",
+    "sha256": "6f57bf1f4f4247c4e754dae3c90213c12e3e7b608fea60ffb1063c1226a5e5bd"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_xb10/xb10_tc_raw_shap_values.npz",
+    "sha256": "6c042e997d2eaa0f2cccdd3145aec31697d79cb6c311b5a092fcbe7a2e7cc927"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_xb10/xb10_tc_shap_additivity_check.csv",
+    "sha256": "2123d4b5a2b78b0233feb6e90a52acd7bdfa16296682248aec2e17f53c924816"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_xb10/xb10_tc_signed_temporal_shap.csv",
+    "sha256": "0cdf1ad080800eca45346d8ae4a660bb973b10d7a7b0a8be81c840173d4c80b6"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_xb10/xb10_tc_temporal_contribution.csv",
+    "sha256": "45d24adbc763f40059b6944d31ef4d7a11c2966d89a017791830f161799a12e7"
+  },
+  {
+    "file": "reference_results/shap_tc_temporal_xb10/xb10_tc_temporal_organization_summary.csv",
+    "sha256": "04cb89a866e7bd460c49b168ba9c394e058e4769e542883f6a584ed8ab3c5917"
+  },
+  {
+    "file": "reference_results/xb10_classification_report.csv",
+    "sha256": "321f89b49b0517a0aff10756276c2c34809da9a3644d0601ba740001b9aebcd4"
+  },
+  {
+    "file": "reference_results/xb10_test_daily_probability.csv",
+    "sha256": "ac267f7dffc47ef14ce6a2641254721cbed46f3a5a5d70921da518ca0241e4bc"
+  },
+  {
+    "file": "reference_results/xb10_training_history.csv",
+    "sha256": "03670fa56bd46f083ede58e5c2d01dd61ae393c920a27dd72a6780e660fab163"
+  }
+]

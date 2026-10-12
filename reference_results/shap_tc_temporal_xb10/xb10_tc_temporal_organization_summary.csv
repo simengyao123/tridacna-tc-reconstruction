@@ -1,0 +1,16 @@
+﻿metric,value,ci_lower,ci_upper,note
+n_tc_labelled_test_samples,61.0,,,Number of all true TC-labelled samples used for TC-specific SHAP.
+n_contiguous_tc_episodes,6.0,,,Consecutive TC-labelled days grouped by calendar continuity.
+pre_target_share_percent,43.65827995643078,38.620298941530436,50.115601219032186,TC-specific temporal organization metric.
+target_day_share_percent,14.983699733154188,13.85878726331072,15.894559967984595,TC-specific temporal organization metric.
+post_target_share_percent,41.358020310415014,35.28282913168054,46.31125479864819,TC-specific temporal organization metric.
+pre_mean_abs_shap_per_position,0.005012875662735408,0.0033383317719456306,0.006348568122662187,TC-specific temporal organization metric.
+target_mean_abs_shap,0.008602196857620347,0.006435542356648168,0.010233631979743963,TC-specific temporal organization metric.
+post_mean_abs_shap_per_position,0.007914596943958697,0.006031832076717743,0.009671099777229753,TC-specific temporal organization metric.
+post_to_pre_mean_ratio,1.5788536314183959,1.1652087144148022,1.996938748011706,Post-target mean |SHAP| per position divided by pre-target mean |SHAP| per position.
+temporal_asymmetry_index,0.22446160742361343,0.07630151925536369,0.3326522216691655,(post mean |SHAP| per position - pre mean |SHAP| per position) / (post + pre); >0 indicates relatively stronger post-target information.
+shap_weighted_centroid_day,-0.3180242850555044,-0.7090734439327238,-0.024177545628952857,SHAP-weighted temporal centroid in raw offset-day coordinates.
+uniform_window_centroid_day,-1.0,,,TC-specific temporal organization metric.
+window_adjusted_centroid_day,0.6819757149444956,0.29092655606727624,0.9758224543710472,Raw centroid minus the uniform-contribution centroid of the asymmetric window; 0 is the neutral baseline for this window.
+peak_offset_day,0.0,,,Temporal position with the largest mean |SHAP|; CI not estimated as a continuous metric.
+peak_relative_contribution_percent,14.983699733154188,,,Relative contribution of the single peak temporal position; CI omitted here.

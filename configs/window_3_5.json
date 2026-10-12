@@ -1,0 +1,33 @@
+{
+  "left_window": 3,
+  "right_window": 5,
+  "seed": 42,
+  "hidden_size": 32,
+  "batch_size": 16,
+  "max_epochs": 100,
+  "learning_rate": 0.001,
+  "patience": 10,
+  "min_delta": 0.0001,
+  "heldout_fraction": 0.3,
+  "classification_threshold": 0.5,
+  "tdi_window": 14,
+  "features": [
+    "DGR",
+    "DGRV",
+    "TDI_A",
+    "TDI_V",
+    "TDI_F",
+    "TDI_E"
+  ],
+  "shap_background_size": 50,
+  "shap_nsamples": 200,
+  "bootstrap_repeats": 1000,
+  "smooth_window": 3,
+  "event_threshold": 0.5,
+  "min_event_days": 2,
+  "max_gap_days": 3,
+  "max_event_days": 7,
+  "peak_min_distance": 4,
+  "peak_prominence": 0.05,
+  "run_sensitivity": true
+}

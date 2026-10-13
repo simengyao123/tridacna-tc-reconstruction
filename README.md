@@ -1,12 +1,12 @@
 # Tridacna tropical cyclone disturbance reconstruction
 
-Aligned with the manuscript revision dated 10 October 2026.
-
 Code and data accompanying **A computational framework for identifying tropical cyclone-related disturbances in modern-to-fossil Tridacna daily growth records**.
 
 This project calculates four local TC Disturbance Index (TDI) descriptors, evaluates modern-specimen BiLSTM-Attention classifiers, compares modern and fossil feature distributions, explains TC-class predictions, and reconstructs potential disturbance events in fossil specimen A114.
 
-The supplied trained models reproduce the manuscript's modern classification results and its 81-event A114 reconstruction. This is a local, organized submission candidate. A public repository URL, author-approved license, data reuse terms and citation metadata remain to be supplied before submission. See [scientific and implementation notes](docs/SCIENTIFIC_NOTES.md).
+The supplied trained models reproduce the manuscript's modern classification results and its 81-event A114 reconstruction. See [scientific and implementation notes](docs/SCIENTIFIC_NOTES.md).
+
+Repository: [simengyao123/tridacna-tc-reconstruction](https://github.com/simengyao123/tridacna-tc-reconstruction).
 
 ## Installation
 
@@ -104,4 +104,18 @@ Each run saves a timestamped manifest containing the configuration, package vers
 
 A114 labels are manual growth-anomaly reference markers, not meteorological ground truth. Its dates from 2024 to 2035 are a virtual indexing calendar, not actual fossil calendar years. The event-stage output uses relative years. The model estimates potential TC-related disturbances retrospectively, using both earlier and later growth information.
 
-See [data dictionary](docs/DATA_DICTIONARY.md), [manuscript mapping](docs/MANUSCRIPT_MAPPING.md), and [verification record](docs/VERIFICATION.md). Citation and licensing details are intentionally pending author decisions; this directory does not grant an open-source or data redistribution license.
+See [data dictionary](docs/DATA_DICTIONARY.md), [manuscript mapping](docs/MANUSCRIPT_MAPPING.md), and [verification record](docs/VERIFICATION.md). If you use this code, please cite this repository and the accompanying manuscript named above. Publication details and a DOI will be added when available.
+## License
+
+The source code is licensed under the Apache License 2.0.
+See [LICENSE](LICENSE) for details.
+
+The datasets in `data/raw` and `data/reference_features` are
+licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+When reusing these datasets, give appropriate credit to the
+original data creators, link to this repository and the license,
+and indicate any modifications. Please also cite the accompanying
+paper when its publication details become available.
